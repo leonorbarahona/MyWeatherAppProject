@@ -98,6 +98,7 @@ let currentLocationButton = document.querySelector("#current-location-button");
 currentLocationButton.addEventListener("click", getCurrentLocation);
 
 let iconElement = document.querySelector("#icon");
+iconElement.setAttribute("src", "http://openweathermap.org/img/wn/10d@2x.png");
 
 let fahrenheitLink = document.querySelector("#fahrenheit-link");
 fahrenheitLink.addEventListener("click", displayFahrenheitTemperature);
