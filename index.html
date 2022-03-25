@@ -55,10 +55,17 @@
         <div class="row">
           <div class="col-6">
             <div class="clearfix">
-              <div class="float-left">
-                <span class="temperature" id="temperature"></span
-                ><span class="units">°C</span>
-              </div>
+              <img
+                src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
+                alt="Clear"
+                id="icon"
+                class="float-left"
+              />
+              <strong id="temperature"></strong
+              ><span class="units"
+                ><a href="#" id="celsius-link" class="active">°C</a> |
+                <a href="#" id="fahrenheit-link">°F</a></span
+              >
             </div>
           </div>
           <div class="col-6">
@@ -71,5 +78,6 @@
       </div>
     </div>
     <script src="src/index.js"></script>
+    <p>Open-source code by Leonor Barahona Pereira</p>
   </body>
 </html>
