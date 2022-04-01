@@ -58,14 +58,25 @@ li {
 .button {
   display: block;
   margin: 0 auto;
-  background-color: yellowgreen;
+  background-color: green;
 }
 
 .submit-search {
   margin-bottom: 20px;
   margin-top: 20px;
 }
-
-p {
+ijuih p {
   text-align: center;
+}
+.weather-temperature strong {
+  color: green;
+  font-size: 64px;
+  line-height: 1;
+  font-weight: 400;
+}
+
+.weather-temperature img {
+  margin-right: 5px;
+  height: 64px;
+  width: 64px;
 }
