@@ -1,6 +1,5 @@
 body {
   font-family: arial, sans-serif;
-  color: yellowgreen;
 }
 
 h1 {
@@ -40,7 +39,6 @@ li {
 }
 
 .temperature {
-  color: yellow;
   font-size: 64px;
   font-weight: 400;
   line-height: 1;
@@ -79,4 +77,8 @@ ijuih p {
   margin-right: 5px;
   height: 64px;
   width: 64px;
+}
+
+.personnal {
+  color: grey;
 }
